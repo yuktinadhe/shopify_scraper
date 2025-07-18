@@ -55,7 +55,7 @@ python app/main.py
   "about_brand": "/pages/about-us",
   "important_links": [{ "Track Order": "/pages/track-order" }]
 }
-
+```
 ---
 
 ## 👨‍💻 Author
