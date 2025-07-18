@@ -1,6 +1,6 @@
 # 🛍 Shopify Brand Scraper (Flask Project)
 
-This is a simple Flask-based API that scrapes a Shopify store URL (like https://memy.co.in) and extracts brand-related information *without using the Shopify API*.
+This is a simple Flask-based API that scrapes a Shopify store and extracts brand-related information *without using the Shopify API*.
 
 ---
 
@@ -35,28 +35,6 @@ pip install -r requirements.txt
 python app/main.py 
 ```
 
-## Visit this in your browser to check:
-
-http://127.0.0.1:5000
-
----
-
-## 🧪 How to Test API with Postman
-
-### URL:
-
-POST http://127.0.0.1:5000/get_brand_data
-
-### Body (raw → JSON):
-
-{
-  "url": "https://memy.co.in"
-}
-
----
-
-
-
 ## 🧾 Sample Output (Shortened)
 
 ```json
@@ -78,19 +56,9 @@ POST http://127.0.0.1:5000/get_brand_data
   "important_links": [{ "Track Order": "/pages/track-order" }]
 }
 
-
-```
-
----
-
-## 🌐 Live Deployment (Render)
-
-👉 https://flask-shopify-scraper.onrender.com
-
 ---
 
 ## 👨‍💻 Author
 
 Built by Yukti Nadhe for a GenAI Developer Internship Assignment 🚀
 
----
